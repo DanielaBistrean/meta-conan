@@ -1,4 +1,4 @@
-inherit setuptools python-dir
+inherit setuptools3 python3-dir
 require python-conan.inc
 
 do_install_append_class-native() {
